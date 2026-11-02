@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html lang="zh-ch">
+<html lang="zh-cn">
 <head>
   <meta charset="UTF-8">
   <title>我的网页</title>
   <style>
-    hi{
-      color:blue;
+    h1 {
+      color: blue;
     }
-    .my-box{
-      border:2px solid red;
-      width:300px;
-      padding:20px;
+    .my-box {
+      border: 2px solid red;
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px; /* 新增：让框变圆 */
     }
-    </style>
+    /* 新增：给按钮化个妆 */
+    button {
+      background-color: #4CAF50; /* 绿背景 */
+      color: white;              /* 白文字 */
+      border: none;              /* 去掉默认边框 */
+      padding: 10px 20px;        /* 按钮内边距 */
+      border-radius: 5px;        /* 按钮圆角 */
+    }
+  </style>
 </head>
 <body>
+
   <div class="my-box">
     <h1>欢迎来到我的主页</h1>
     <p>我今天开始学习前端</p>
     <button>给我点个赞</button>
   </div>
+
 </body>
 </html>
